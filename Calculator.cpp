@@ -4,17 +4,22 @@ using namespace std;
 
 int main()
 {
-    int a,b ;
-char op;
-    cin >>a;
-
-    cin >>op;
-
-    cin >>b;
-    if( op == '+'){cout <<a+b;}
-    else if(op =='-'){cout <<a-b;}
-    else if(op=='*'){cout <<a*b;}
-    else if (op=='/'){cout <<a/b;}
-
+double x,y;
+char a;
+cin>>x;
+cin >>a;
+cin >>y;
+switch(a){case '+':
+    cout <<x+y;
+    break;
+    case '*':
+    cout <<x*y;
+    break;
+    case '-':
+    cout <<x-y;
+    break;
+    case '/':
+    cout <<x/y;
+    break;}
 
 }
